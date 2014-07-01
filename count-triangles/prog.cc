@@ -9,8 +9,8 @@ using namespace std;
 
 // counts number of common elements in 'sorted' vectors v1 and v2
 int numCommonElements(const vector<int>& v1, int i1, 
-					  const vector<int>& v2, int i2, 
-					  vector<int>& commonElements)
+						const vector<int>& v2, int i2, 
+						vector<int>& commonElements)
 {
 	int rVal = 0;
 	while (i1 < v1.size() && i2 < v2.size()) {
@@ -64,7 +64,7 @@ public:
 	}
 };
 
-int main(int arhc, char* argv[]) {
+int main(int argc, char* argv[]) {
 	Graph G;
 	int src, dst;
 	int start = clock();
