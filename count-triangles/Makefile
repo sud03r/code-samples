@@ -1,5 +1,5 @@
 
 all:
-	g++ -o printTriangles -O3 prog.cc
+	g++ -o printTriangles prog.cc
 run:
 	./printTriangles $(file)
