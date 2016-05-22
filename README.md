@@ -11,3 +11,5 @@ Some random code samples that may be useful.
 3. convNet-cifar100 : Simple convolutional neural network using tensorflow.
 	Achieves 40% accuracy on CIFAR-100 with 30 mins training time.
 
+4. SfM2 : Structure from motion using two views. Matlab implementation using RANSAC
+	Sampson's error, calibrated fivepoint.
